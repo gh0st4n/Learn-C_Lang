@@ -1,13 +1,20 @@
 #include <stdio.h>
 
+/*
+ * Soal :
+ Bagaimana memahami computer memory
+
+ Output :
+ ```
+ The average of the 3 grades is: 85
+ ```
+ */
+
 int main() {
-  /* TODO: define the grades variable here */
-  int grades[3];
+  int grades[3]; // Membuat grades hanya tiga
   int average;
 
   grades[0] = 80;
-  /* TODO: define the missing grade
-     so that the average will sum to 85. */
   grades[1] = 85;
   grades[2] = 90;
 
